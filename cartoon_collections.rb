@@ -25,4 +25,3 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find { |element| valid_calls.include? (element) }
 end
     
-find_valid_calls(small_calls)
