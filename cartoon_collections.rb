@@ -25,5 +25,5 @@ def find_valid_calls(planeteer_calls)
   valid_calls.each do |call| 
     planeteer_calls.find { |element| valid_calls.find { |call| call == element}}
 end
-
+end
     
